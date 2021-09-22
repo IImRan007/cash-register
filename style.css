@@ -22,6 +22,7 @@ body {
 .container .heading {
   margin: 0.8rem;
   font-size: 2.5rem;
+  color: #73d673;
 }
 
 .container .description {
@@ -75,6 +76,15 @@ td {
   border-collapse: collapse;
   width: 1%;
   padding: 0.5rem 0.5rem;
+}
+
+@media screen and (max-width: 563px) {
+  .input-section input {
+    width: 28vw;
+  }
+  .input-section #btn-check {
+    width: 15vw;
+  }
 }
 
 @media screen and (max-width: 375px) {
