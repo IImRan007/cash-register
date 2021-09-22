@@ -76,3 +76,18 @@ td {
   width: 1%;
   padding: 0.5rem 0.5rem;
 }
+
+@media screen and (max-width: 375px) {
+  .input-section input {
+    width: 36vw;
+    height: 5vh;
+  }
+  .input-section #btn-check {
+    width: 18vw;
+    height: 4vh;
+  }
+  th,
+  td {
+    padding: 0.2rem 0.2rem;
+  }
+}
